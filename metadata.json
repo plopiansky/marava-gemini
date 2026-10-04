@@ -1,0 +1,6 @@
+{
+  "name": "ישיבת מערבא - אתר תדמית ועורך תוכן",
+  "description": "אתר תדמית ומערכת ניהול תוכן לישיבה התיכונית מערבא - מכון רובין במתתיהו: תורה, בגרות מלאה, סדר יום, גלריה ורישום תלמידים.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
