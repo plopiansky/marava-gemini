@@ -3,6 +3,9 @@ name = "marava-gemini"
 main = "./worker.js"
 compatibility_date = "2024-09-23"
 
+[build]
+command = "npm run build"
+
 [assets]
 directory = "./dist"
 binding = "STATIC_ASSETS"
