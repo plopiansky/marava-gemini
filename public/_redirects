@@ -1,0 +1,3 @@
+# Cloudflare Pages SPA Routing
+# Routes all URLs to index.html with a 200 HTTP status code for client-side routing (e.g. /admin)
+/*    /index.html   200

@@ -1,0 +1,15 @@
+# Cloudflare Pages Security & Cache Headers
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Cache static hashed assets for 1 year
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Ensure index.html is revalidated so updates are seen instantly
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate

@@ -1,0 +1,7 @@
+# Cloudflare Configuration for Yeshivat Maarava
+name = "maarava-yeshiva"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[site]
+bucket = "./dist"
